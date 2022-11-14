@@ -1,1 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color:white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #38444d;
+}
 
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+  
+  <title>DylonKejhu Union Newsletter</title>
+  <link rel="icon" type="image/x-icon" href="/resources/images/favicon.ico">
+</head>
+<body>
+  
+  <div class="header">
+  <h2>NAKAL</h2>
+  <p>GRRRRRRRRR</p>
+</div>
+  
+  <ul>
+  <li><a href="">Home</a></li>
+  <li><a href="">Posts</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Aurelis</a>
+    <div class="dropdown-content">
+      <a href="">Roleplay</a>
+      <a href="">Countries</a>
+    </div>
+  </li>
+</ul>
+
+<h1>The Site Is Here</h1>
+<p>Hourray</p>
+  
+  <TABLE BORDER="2"    
+       WIDTH="30%"   
+       CELLPADDING="2" 
+       CELLSPACING="1"
+       
+   <TR>
+      <TH COLSPAN="2"><BR><H1>DylonKejhu Union</H1>
+      </TH>
+   </TR>
+  
+   <TR>
+      <TD>
+        <img src="https://i.ibb.co/qrQrfYw/Tak-berjudul12-20201223104217.png" alt="Bendera DKU" width="150" height="100">
+      </TD>
+     
+     <TD>
+        <img src="" alt="Lambang DKU" width="200" height="200">
+      </TD>
+   </TR>
+  
+<TR>
+      <TH COLSPAN="2">
+        Motto : "I Love Cheese"
+        <Br>National Ideology : Kejhunism
+      </TH>
+   </TR>  
+
+<TR>
+<TH COLSPAN="2">
+        National Anthem : "Let's Learn History"
+      </TH>
+</TR>
+  
+  <TR>
+<TH COLSPAN="2">
+        <img src="" alt="Peta DKU" width="200" height="200">
+      </TH>
+    </TR>
+   
+   <TR ALIGN="CENTER">
+      <TD>Capital</TD>
+      <TD>Dylonian</TD>
+   </TR>
+
+     <TR ALIGN="CENTER">
+      <TD>Largest City</TD>
+      <TD>Dylon City</TD>
+   </TR>
+
+     <TR ALIGN="CENTER">
+      <TD>National Language</TD>
+      <TD>Dylken</TD>
+   </TR>
+
+  <TR ALIGN="CENTER">
+      <TD>Ethnic Group</TD>
+      <TD>Dylonians
+    <br>Kejhunians</TD>
+   </TR>
+  
+  <TR ALIGN="CENTER">
+      <TD>Religion</TD>
+      <TD>Secular Goverment</TD>
+   </TR>
+  
+<TR ALIGN="CENTER">
+      <TD>Demonym(s)</TD>
+      <TD>Dyke</TD>
+   </TR>
+
+<TR ALIGN="CENTER">
+      <TD>Government</TD>
+      <TD>Federal Kejhu Multi-Party Socialist Union</TD>
+   </TR>
+
+<TR ALIGN="CENTER">
+      <TD></TD>
+      <TD></TD>
+   </TR>
+
+<TR ALIGN="CENTER">
+      <TD></TD>
+      <TD></TD>
+   </TR>
+
+<TR ALIGN="CENTER">
+      <TD></TD>
+      <TD></TD>
+   </TR>
+
+<TR ALIGN="CENTER">
+      <TD></TD>
+      <TD></TD>
+   </TR>
+
+<TR ALIGN="CENTER">
+      <TD></TD>
+      <TD></TD>
+   </TR>
+
+</TABLE>
+</body>
+</html>

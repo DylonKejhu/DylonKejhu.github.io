@@ -146,10 +146,10 @@ li.dropdown
 
 .AurelisMap 
 {
-     width: 500px;
-     height: 500px;
+     width: 750px;
+     height: 750px;
      overflow: scroll;
-     Border: 5px double black
+     Border: 8px double black;
 }
   
  /* Media Screen */

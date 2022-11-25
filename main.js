@@ -1,4 +1,4 @@
-const mymap = L.map('map').setView([40.770116, -73.967909], 13);
+const map = L.map('AurelisMap').setView([40.770116, -73.967909], 13);
 L.tileLayer('/resources/images/AureliMap.webp', {
     maxZoom: 18,
 }).addTo(mymap);

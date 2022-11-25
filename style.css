@@ -143,6 +143,13 @@ li.dropdown
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+
+.AurelisMap 
+{
+     width:5000px;
+     height:2500px;
+     overflow:scroll;
+}
   
  /* Media Screen */
  

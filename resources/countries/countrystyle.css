@@ -118,18 +118,6 @@ body
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-.td1 {
-  font: bold normal 11.5px verdana, sans-serif;
-}
-.td2 {
-  font: normal 11.5px verdana, sans-serif;
-}
-  
-input[type=radio]:checked + label>img {
-  border: 1px solid #fff;
-  box-shadow: 0 0 3px 3px #090;
-}
-
  /* Media Screen */
  
  @media screen and (max-width: 400px) {

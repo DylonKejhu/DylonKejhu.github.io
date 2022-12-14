@@ -1,0 +1,64 @@
+.center{
+  margin: auto;
+  width: 3%;
+  padding: 10px;
+}
+
+
+.dbt {
+  background-image: url('https://www.w3schools.com/howto/searchicon.png');
+  background-repeat: no-repeat;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: 2px;
+  cursor: pointer;
+  top: 50%;
+  left: 50%;
+  
+}
+
+.dbt:hover, .dbt:focus {
+  background-image: url('https://www.w3schools.com/howto/searchicon.png');
+  background-repeat: no-repeat;
+}
+
+#myInput {
+  box-sizing: border-box;
+  background-image: url('https://www.w3schools.com/howto/searchicon.png');
+  background-position: 14px 12px;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  padding: 14px 20px 12px 45px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+#myInput:focus {outline: 3px solid #ddd;}
+
+.dd {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.dbtct {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  min-width: 230px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 1;
+}
+
+.dbtct a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dbt a:hover {background-color: #ddd;}
+
+.show {display: block;}

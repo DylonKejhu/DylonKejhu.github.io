@@ -12,7 +12,7 @@ body{
     height: 100vh;
     margin: 0;
     padding:0;
-    background-image: url('/404.gif');
+    background-image: url('/resources/images/404.gif');
     background-size: cover;
 }
 

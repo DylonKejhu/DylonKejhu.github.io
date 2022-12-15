@@ -123,14 +123,20 @@ body
   
  /* Media Screen */
  
- @media screen and (max-width: 400px) {
-  .header  {
-    font: italic normal bolder 15px/0px "Brush Script MT", cursive;
-  }
-  
 @media screen and (max-width: 400px) {
   .leftcolumn, .rightcolumn {   
     width: 100%;
     padding: 0;
+  }
+  .header  {
+    font: italic normal bolder 15px/0px "Brush Script MT", cursive;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .aurelispediatable {   
+    width: 100%;
+    padding: 0;
+    margin: 0;
   }
 }

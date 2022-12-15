@@ -93,18 +93,21 @@
 .field1 {
 	margin-top: 5px;
 	background-color: #caffc2;
+	border:1px ridge #4dfd3d ;
 	min-width: 0;
 }
 
 .field2 {
 	margin-top: 5px;
 	background-color: #ffc5c5;
+	border:1px ridge #ff4545 ;
 	min-width: 0;
 }
 
 .field3 {
 	margin-top: 5px;
 	background-color: #c9c3f8;
+	border:1px ridge #5e7afd ;
 	margin-right: 50px;
 	min-width: 0;
 }

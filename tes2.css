@@ -109,6 +109,117 @@ body
   clear: both;
   overflow: hidden;
 }
+* 
+{
+  box-sizing: border-box;
+
+}
+body 
+{
+  background-color:#ffeaea;
+}
+.ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #e06302;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.li 
+{
+  float: left;
+  border-right: 1px solid #bbb;
+}
+.li a, .dropbtn 
+{
+  display: inline-block;
+  color: #f7f6f5;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.dropdown a:hover, .dropdown:hover .dropbtn 
+{
+  background-color: #4a2203;
+}
+.dropdown 
+{
+  display: inline-block;
+  border-right: 1px solid #bbb;
+}
+.dropdown-content 
+{
+  display: none;
+  position: absolute;
+  background-color: #fac18e;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a 
+{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover 
+{
+  background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content 
+{
+  display: block;
+}
+.header
+{
+  font: italic normal bolder 35px/30px "Brush Script MT", cursive;
+  background-color: white;
+  padding: 14px;
+  margin-top: 0px;
+}
+
+/* Left column */
+
+.leftcolumn 
+{   
+  float: left;
+  min-width : 250px;
+  width: 30%;
+}
+
+/* Right column */
+
+.rightcolumn 
+{
+  float: left;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Add a card effect for articles */
+
+.card 
+{
+  background-color: white;
+  padding: 20px;
+  margin-top: 10px;
+  box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.2);
+  overflow: hidden;
+}
+
+/* Clear floats after the columns */
+
+.row:after 
+{
+  content: "";
+  display: table;
+  clear: both;
+  overflow: hidden;
+}
 
 /* Footer */
 
@@ -133,10 +244,43 @@ body
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 666px) {
   .aurelispediatable {   
     width: 100%;
     padding: 0;
     margin: 0;
+  }
+  .card {
+    padding: 15px
+  }
+}
+{
+  padding: 1px;
+  text-align: center;
+  background: white;
+  margin-top: 20px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+  
+ /* Media Screen */
+ 
+@media screen and (max-width: 400px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+  .header  {
+    font: italic normal bolder 15px/0px "Brush Script MT", cursive;
+  }
+}
+
+@media screen and (max-width: 666px) {
+  .aurelispediatable {   
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .card {
+    padding: 15px
   }
 }

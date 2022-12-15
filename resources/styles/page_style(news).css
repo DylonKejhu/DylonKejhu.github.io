@@ -78,9 +78,8 @@ body
 
 .rightcolumn 
 {
-  float: left;
   width: 100%;
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 /* Add a card effect for articles */
@@ -88,8 +87,9 @@ body
 .card 
 {
   background-color: white;
-  padding: 20px;
-  box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.2);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
 }
 
 /* Clear floats after the columns */

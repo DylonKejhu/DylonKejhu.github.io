@@ -1,20 +1,35 @@
-.center{
+.center_search{
   margin: auto;
-  width: 3%;
   padding: 10px;
+  border: 3px double #e06302;
 }
 
+.center_1{
+  margin: auto;
+  padding: 10px;
+  border: 2px solid #e06302;
+  background-color: #ffefdc;
+  color: #9f1414;
+}
+
+.center_2{
+  margin: auto;
+  padding: 10px;
+  border: 2px solid #e06302;
+  background-color: #ffefdc;
+  color: #9f1414;
+  height: 600px;
+}
 
 .dbt {
   background-image: url('https://www.w3schools.com/howto/searchicon.png');
   background-repeat: no-repeat;
+  background-size: 100% 100%;
   color: black;
   padding: 16px;
   font-size: 16px;
   border: 2px;
   cursor: pointer;
-  top: 50%;
-  left: 50%;
   
 }
 
@@ -62,3 +77,48 @@
 .dbt a:hover {background-color: #ddd;}
 
 .show {display: block;}
+
+.fact {
+  width: 50%;
+  float: right;
+}
+
+.news {
+  width: 50%;
+}
+.pic {
+  width: 53.8%;
+}
+
+.field1 {
+	background-color: #caffc2;
+	min-width: 0;
+}
+.field2 {
+	background-color: #ffc5c5;
+	min-width: 0;
+}
+.field3 {
+	margin-top: 5px;
+	background-color: #c9c3f8;
+	margin-right: 50px;
+	min-width: 0;
+}
+.legend1 {
+	background-color: #4dfd3d;
+	border-radius: 25px;
+	padding: 5px 10px;
+	color: white;
+}
+.legend2 {
+	background-color: #ff4545;
+	border-radius: 25px;
+	padding: 5px 10px;
+	color: white;
+}
+.legend3 {
+	background-color: #5e7afd;
+	border-radius: 25px;
+	padding: 5px 10px;
+	color: white;
+}

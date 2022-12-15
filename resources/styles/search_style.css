@@ -18,7 +18,7 @@
   border: 2px solid #e06302;
   background-color: #ffefdc;
   color: #9f1414;
-  height: 600px;
+  height: auto;
 }
 
 .dbt {
@@ -76,46 +76,53 @@
 
 .dbt a:hover {background-color: #ddd;}
 
-.show {display: block;}
+.news {
+	width: 100%;
+}
 
 .fact {
-  width: 50%;
-  float: right;
+	width: 100%;
 }
 
-.news {
-  width: 50%;
-}
 .pic {
-  width: 53.8%;
+	min-width: 100%;
 }
+
+.show {display: block;}
 
 .field1 {
+	margin-top: 5px;
 	background-color: #caffc2;
 	min-width: 0;
 }
+
 .field2 {
+	margin-top: 5px;
 	background-color: #ffc5c5;
 	min-width: 0;
 }
+
 .field3 {
 	margin-top: 5px;
 	background-color: #c9c3f8;
 	margin-right: 50px;
 	min-width: 0;
 }
+
 .legend1 {
 	background-color: #4dfd3d;
 	border-radius: 25px;
 	padding: 5px 10px;
 	color: white;
 }
+
 .legend2 {
 	background-color: #ff4545;
 	border-radius: 25px;
 	padding: 5px 10px;
 	color: white;
 }
+
 .legend3 {
 	background-color: #5e7afd;
 	border-radius: 25px;

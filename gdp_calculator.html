@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DylonKejhu</title>
+<link rel="stylesheet" href="/resources/styles/pagestyle(countries).css">
+<link rel="stylesheet" href="/resources/styles/formstyle.css">
+<link rel="stylesheet" href="/resources/styles/page_style(calculator_gdp)">
+<link rel="apple-touch-icon" sizes="180x180" href="/resources/icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/resources/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/resources/icons/favicon-16x16.png">
+<link rel="manifest" href="/resources/icons/site.webmanifest">
+<link rel="mask-icon" href="/resources/icons/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#b91d47">
+<meta name="theme-color" content="#ffffff">
+<body onLoad="preLoad()">
+<!-- Keperkepalaan -->
+<div class="header"> 
+<h1>DylonKejhu</h1>
+</div>
+<!-- Pilihan Halaman -->
+<!--  -->
+<ul class="ul">
+  <li class="li"><a href="/index.html">Home</a></li>
+  <li class="li"><a href="/posts.html">Posts</a></li>
+  <li class="dropdown">
+  <a href="javascript:void(0)" class="dropbtn">Aurelispedia</a>
+  <div class="dropdown-content">
+  <a href="/mainpage.html">Mainpage</a>
+  <a href="/gdp_calculator.html">GDP Calculator</a>
+  <a href="/countries.html">Countries</a>
+  </div>
+  </li>
+</ul>
+<!--  -->
+<!-- Badan Halaman -->
+<div class="row">
+  <div class="rightcolumn">
+    <div class="card">
+	<h1>Aurelispedia</h1>
+	<em>Aurelispedia, The Best Wiki Ever On The Internet</em><hr>
+	<fieldset> 
+	 <legend><h3>Kalkulator Ekonomi Negara di Aurelis</h3></legend>
+<form id="gdp-form" action="https://formspree.io/f/myyaynyv" method="POST">
+<fieldset> 
+	 <legend><h3>Identitas Negara</h3></legend>
+  <label for="country">Country:</label><br>
+  <select id="country" name="country">
+    <option>---</option>
+	 <option>Araliana Republic</option>
+	 <option>Eagle Cheikhe</option>
+	 <option>Federation of Farkinisland</option>
+	 <option>Grand Friedonia Liusrosa</option>
+     <option>Greater Xiaomei Dynasty</option>
+	 <option>People's Republic of Yugodzavic</option>
+	 <option>Republic University Faustland Cozta la Fuerte</option>
+	 <option>Self Defense Force Republic</option>
+	 <option>Union of DylonKejhu Sovereign Republic</option>
+	 <option>United Kingdom of Saint Daniswara and Wei islands</option>
+	 <option>United Republics of Schärweil-Knighthaven Kingdom</option>
+	 <option>Zealot Vermillion Kingdom</option>
+	 <option>-Unlisted- help ak kehilangan semua identitas negara anda yg dibawah ini dri nama negara, bendera, lambang, ibukota, kota terbesar, DM to me plz</option>
+	 <option>Republic ?? Slavinka ??</option>
+	 <option>??? Yevania ???</option>
+	 <option>??? Hoshinova ?????</option>
+	 <option>The Other Arya Unnammed Republic</option>
+	 <option>Fall's Frieden Cheiken Alien Aristocracy</option>
+    <!-- Add more options for different countries -->
+  </select><br>
+  <label for="currency">Currency:</label><br>
+  <select id="currency" name="currency">
+    <option>---</option>
+    <option value="Auro">Auro</option>
+    <option value="Krejhu">Krejhu</option>
+	<option value="Minmi">Minbi/Qian</option>
+	<option value="Opal">Opal</option>
+	<option value="Minmi">Minbi/Qian</option>
+	<option value="Elbe Coin">Elbe Coin</option>
+	<option value="Random">Random Currency (DM Me If Your Currency Not Listed)</option>
+    <!-- Add more options for different countries -->
+  </select><br>
+  <label for="year">Year:</label><br>
+  <select id="year" name="year">
+    <option>---</option>
+    <option value="2030">2030 (Now)</option>
+    <option value="2000">2000 (The Past)</option>
+	<option value="1950">1950 (The Past of the Past)</option>
+	<option value="1900">1900 (The Past of the Past Past)</option>
+	<option value="1444">1444 (congrats, easter egg !)</option>
+    <!-- Add more options for different years -->
+  </select><br>
+  
+  <label for="population">Population:</label><br>
+  <input class="aurelispediaformnumber" placeholder="Big Country 166,6jt - 399,12jt" type="number" id="population" name="population"><br>
+  <label for="value_of_bread">Value of ONE loaf of Bread In Your Currency:</label><br>
+  <input class="aurelispediaformnumber" placeholder="harga 1 roti di mata uang anda exp 1 roti = 2 rupiah" type="number" id="value_of_bread" name="value_of_bread"><br>
+  <br>
+  </fieldset> 
+  <fieldset> 
+	 <legend><h3>Pendapatan Negara</h3></legend>
+  <label for="agriculture">Agriculture:</label><br>
+  <input class="aurelispediaformnumber" placeholder="Hoshinova SR" type="number" id="agriculture" name="agriculture"><br>
+  <label for="forestry">Forestry:</label><br>
+  <input class="aurelispediaformnumber" placeholder="YUGOkiwir" type="number" id="forestry" name="forestry"><br>
+  <label for="fishing">Fishing:</label><br>
+  <input class="aurelispediaformnumber" placeholder="Slavinka, Eagle" type="number" id="fishing" name="fishing"><br>
+  <label for="mining">Mining:</label><br>
+  <input class="aurelispediaformnumber" placeholder="STD, ZAW" type="number" id="mining" name="mining"><br>
+  <label for="manufacturing">Manufacturing:</label><br>
+  <input class="aurelispediaformnumber" placeholder="DKU, UST, GFL" type="number" id="manufacturing" name="manufacturing"><br>
+  <label for="electricity">Electricity:</label><br>
+  <input class="aurelispediaformnumber" placeholder="YEV" type="number" id="electricity" name="electricity"><br>
+  <label for="construction">Construction:</label><br>
+  <input class="aurelispediaformnumber" placeholder="SDF(CVN,DDN,DEN), SEAN-KEA" type="number" id="construction" name="construction"><br>
+  <label for="trade">Trade:</label><br>
+  <input class="aurelispediaformnumber" placeholder="Xiomay" type="number" id="trade" name="trade"><br>
+  <br>
+  </fieldset> 
+  <fieldset> 
+	 <legend><h3>Pengeluaran Negara</h3></legend>
+  <label for="food">Food:</label><br>
+  <input class="aurelispediaformnumber" placeholder="" type="number" id="food" name="food"><br>
+  <label for="transportation">Transportation:</label><br>
+  <input class="aurelispediaformnumber" placeholder="" type="number" id="transportation" name="transportation"><br>
+  <label for="social_security">Social Security:</label><br>
+  <input class="aurelispediaformnumber" placeholder="" type="number" id="social_security" name="social_security"><br>
+  <label for="science">Science:</label><br>
+  <input class="aurelispediaformnumber" placeholder="" type="number" id="science" name="science"><br>
+  <label for="energy">Energy:</label><br>
+  <input class="aurelispediaformnumber" placeholder="" type="number" id="energy" name="energy"><br>
+  <label for="international">International:</label><br>
+  <input class="aurelispediaformnumber" placeholder="" type="number" id="international" name="international"><br>
+  <label for="housing">Housing:</label><br>
+  <input class="aurelispediaformnumber" placeholder="" type="number" id="housing" name="housing"><br>
+  <label for="veterans">Veterans:</label><br>
+  <input class="aurelispediaformnumber" placeholder="" type="number" id="veterans" name="veterans"><br>
+  <label for="health">Health:</label><br>
+  <input class="aurelispediaformnumber" placeholder="" type="number" id="health" name="health"><br>
+  <label for="education">Education:</label><br>
+  <input class="aurelispediaformnumber" placeholder="" type="number" id="education" name="education"><br>
+  <label for="law_order">Law and Order:</label><br>
+  <input class="aurelispediaformnumber" placeholder="" type="number" id="law_order" name="law_order"><br>
+  <label for="military">Military:</label><br>
+  <input class="aurelispediaformnumber" placeholder="" type="number" id="military" name="military"><br>
+  </fieldset> 
+  <fieldset> 
+	 <legend><h3>Kapan Data Didapat</h3></legend>
+  <label for="reference_year">Published Data Year:</label><br>
+  <input class="aurelispediaformnumber" placeholder="" type="number" id="reference_year" name="reference_year"><br>
+  <label for="inflation_reference_year_to_year">Economic Growth Since Published Data Year:</label><br>
+  <input class="aurelispediaformnumber" placeholder="" type="number" id="inflation_reference_year_to_year" name="inflation_reference_year_to_year"><br>
+  </fieldset> 
+  <fieldset> 
+	 <legend><h3>Kalkulasi !</h3></legend>
+  <button class="submit1" type="button" id="calculate-button">Calculate</button>
+ <br><br><br>
+ </fieldset>
+<div id="country-name"></div><br><br><br><br><br><br><br><br><br><br><br>
+<fieldset> 
+	 <legend><h3>WARNING, Sebelum dikirim mohon SS ke grup/dm ke DyLOn</h3></legend>
+<input type="submit" value="Kirim">
+</fieldset>
+</form>
+</fieldset>
+<script>
+const calculateButton = document.getElementById("calculate-button");
+calculateButton.addEventListener("click", function() {
+  // Get the values of the economic sectors and spending categories from the form
+  const population = parseFloat(document.getElementById("population").value);
+  const agriculture = parseFloat(document.getElementById("agriculture").value);
+  const forestry = parseFloat(document.getElementById("forestry").value);
+  const fishing = parseFloat(document.getElementById("fishing").value);
+  const mining = parseFloat(document.getElementById("mining").value);
+  const manufacturing = parseFloat(document.getElementById("manufacturing").value);
+  const electricity = parseFloat(document.getElementById("electricity").value);
+  const construction = parseFloat(document.getElementById("construction").value);
+  const trade = parseFloat(document.getElementById("trade").value);
+  const food = parseFloat(document.getElementById("food").value);
+  const transportation = parseFloat(document.getElementById("transportation").value);
+  const social_security = parseFloat(document.getElementById("social_security").value);
+  const science = parseFloat(document.getElementById("science").value);
+  const energy = parseFloat(document.getElementById("energy").value);
+  const international = parseFloat(document.getElementById("international").value);
+  const housing = parseFloat(document.getElementById("housing").value);
+  const veterans = parseFloat(document.getElementById("veterans").value);
+  const health = parseFloat(document.getElementById("health").value);
+  const education = parseFloat(document.getElementById("education").value);
+  const law_order = parseFloat(document.getElementById("law_order").value);
+  const military = parseFloat(document.getElementById("military").value);
+  const valueOfBread = parseFloat(document.getElementById("value_of_bread").value);
+
+ // Total GDP & Penghasilan Bersih Negara
+const total_gdp = agriculture + forestry + fishing + mining + manufacturing + electricity + construction + trade;
+const gdp_per_capita_old = total_gdp / population
+const clean_revenue = total_gdp - (food + transportation + social_security + science + energy + international + housing + veterans + health + education + law_order + military);
+
+// Tahun Data Dirilis Dan Rata" Inflasinya setelah itu
+const reference_year = Number(document.getElementById("reference_year").value);
+const inflation_reference_year_to_year = Number(document.getElementById("inflation_reference_year_to_year").value);
+
+// Menghitung Hasil Setelah Inflasi & Index Trading
+const year = document.getElementById("year").value;
+const adjusted_gdp_year = total_gdp * (1 + (inflation_reference_year_to_year / 100)) ** (year - reference_year)
+const gdp_per_capita = adjusted_gdp_year / population
+const infla = inflation_reference_year_to_year;
+const exchangerate = valueOfBread / 1.235;
+const adjusted_clean_revenue = (clean_revenue * (1 + (inflation_reference_year_to_year / 100)) ** (year - reference_year)) / exchangerate;
+const old_after_revenue = clean_revenue * (1 + (inflation_reference_year_to_year / 100)) ** (year - reference_year);
+const aurogdp = adjusted_gdp_year / exchangerate;
+const aurogdp_per_capita = gdp_per_capita / exchangerate;
+
+// Nama Negara & Mata Uang
+const country = document.getElementById("country").value;
+const currency = document.getElementById("currency").value;
+
+   // Hasil Yg Ditampilkan
+  document.getElementById("country-name").innerHTML = `<br><br>
+  <table class="aurelispediatable" 
+	 <!-- Nama Negara -->	   
+     <tr class="aurelispediarow">
+		<th colspan="2">
+		${country}
+		</th>
+     </tr>
+	 <!-- Ekonomi -->
+	 <tr align="left" valign="top">
+        <th class="tdboldspecialheaderline">Economy</th>
+        <td class="tdnormalspecialheaderline"></td>
+     </tr>
+	 <tr align="left" valign="top">
+        <th><div class="tdboldmorespecial">•&nbsp;GDP (Nominal)</div></th>
+        <td class="tdnormalspecial">${aurogdp} Auro (${year})</td>
+     </tr>
+	 <tr align="left" valign="top">
+        <th><div class="tdboldmorespecial">•&nbsp;GDP (Nominal) per capita</div></th>
+        <td class="tdnormalspecial">${aurogdp_per_capita} Auro (${year})</td>
+     </tr>
+	 <tr align="left" valign="top">
+        <th><div class="tdboldmorespecial">•&nbsp;Revenue</div></th>
+        <td class="tdnormalspecial">${adjusted_clean_revenue} Auro (${year})</td>
+     </tr>
+	 <tr align="left" valign="top">
+        <th><div class="tdboldmorespecial">•&nbsp;Exchange Rate (Kurs (kk pake kurs segala mngh mmmph~))</div></th>
+        <td class="tdnormalspecial">${exchangerate} ${currency} = 1 Auro (${year})</td>
+     </tr>
+	 <tr align="left" valign="top">
+        <th><div class="tdboldmorespecial">•&nbsp;Average Economic Growth</div></th>
+        <td class="tdnormalspecial">${infla}% Since ${reference_year}</td>
+     </tr>
+	 <tr align="left" valign="top">
+        <th><div class="tdboldmorespecial">•&nbsp;GDP (nominal)</div></th>
+        <td class="tdnormalspecial">${total_gdp} ${currency} (${reference_year})</td>
+     </tr>
+	 <tr align="left" valign="top">
+        <th><div class="tdboldmorespecial">•&nbsp;GDP (nominal) per capita</div></th>
+        <td class="tdnormalspecial">${gdp_per_capita_old} ${currency} (${reference_year})</td>
+     </tr>
+	 <tr align="left" valign="top">
+        <th><div class="tdboldmorespecial">•&nbsp;Revenue</div></th>
+        <td class="tdnormalspecial">${clean_revenue} ${currency} (${reference_year})</td>
+	 <tr align="left" valign="top">
+        <th><div class="tdboldmorespecial">•&nbsp;GDP (nominal)</div></th>
+        <td class="tdnormalspecial">${adjusted_gdp_year} ${currency} (${year})</td>
+     </tr>
+	 <tr align="left" valign="top">
+        <th><div class="tdboldmorespecial">•&nbsp;GDP (nominal) per capita</div></th>
+        <td class="tdnormalspecial">${gdp_per_capita} ${currency} (${year})</td>
+     </tr>
+	 <tr align="left" valign="top">
+        <th><div class="tdboldmorespecial">•&nbsp;Revenue</div></th>
+        <td class="tdnormalspecialend">${old_after_revenue} ${currency} (${year})</td>
+     </tr> 
+   </table>
+   <br><br><br><br>
+  `;
+})
+</script>
+
+</div> 
+<!-- Akhir Penjelasan -->	
+  </div>
+</div>
+<!-- Keperkakian -->
+<div class="footer">
+  <p>Aurelispedia, Made with 🛢️ by DylonKejhu<p>
+</div>
+</body>
+</html>

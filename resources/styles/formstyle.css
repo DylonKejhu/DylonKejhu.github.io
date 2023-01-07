@@ -1,5 +1,12 @@
 .aurelispediaformtext[type=text] {
-  width: 250px;
+  width: 450px;
+  padding: 6px 10px;
+  margin: 3px 0;
+  box-sizing: border-box;
+}
+
+.aurelispediaformnumber[type=number] {
+  width: 450px;
   padding: 6px 10px;
   margin: 3px 0;
   box-sizing: border-box;
@@ -45,6 +52,34 @@ input[type=submit]:hover {
 }
 
 input[type=submit]:active {
+  background-color: orangered;
+  width: 150px;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.submit1 {
+  display: inline-block;
+  width: 150px;
+  padding: 15px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #e06302;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 9px #999;
+}
+
+.submit1:hover {
+  background-color: #e06302
+  width: 150px;
+}
+
+.submit1:active {
   background-color: orangered;
   width: 150px;
   box-shadow: 0 5px #666;

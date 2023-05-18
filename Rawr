@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>DylonKejhu</title>
+
+<link rel="stylesheet" href="/resources/styles/page_style(index).css">
+
+<link rel="stylesheet" href="/resources/styles/formstyle.css">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/resources/icons/apple-touch-icon.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="/resources/icons/favicon-32x32.png">
+
+<link rel="icon" type="image/png" sizes="16x16" href="/resources/icons/favicon-16x16.png">
+
+<link rel="manifest" href="/resources/icons/site.webmanifest">
+
+<link rel="mask-icon" href="/resources/icons/safari-pinned-tab.svg" color="#5bbad5">
+
+<meta name="msapplication-TileColor" content="#b91d47">
+
+<meta name="theme-color" content="#ffffff">
+
+</head>
+
+<body>
+
+<!--  -->
+
+<div class="header"> 
+
+<h1>DylonKejhu</h1>
+
+</div>
+
+<!-- Pilihan Halaman -->
+
+<!--  -->
+
+<ul class="ul">
+
+  <li class="li"><a href="/index.html">Home</a></li>
+
+  <li class="li"><a href="/posts.html">Posts</a></li>
+
+  <li class="dropdown">
+
+  <a href="javascript:void(0)" class="dropbtn">Aurelispedia</a>
+
+  <div class="dropdown-content">
+
+  <a href="/mainpage.html">Mainpage</a>
+
+  <a href="/countries.html">Countries</a>
+
+  </div>
+
+  </li>
+
+</ul>
+
+<!--  -->
+
+<!-- Badan Halaman -->
+
+<div class="row">
+
+  <div class="leftcolumn">
+
+    <div class="card">
+
+      <p>Selamat Datang pada bagian sebelum anda mengisi form yang cukup panjang ini. Siapkah teh, kopi dan cemilan untuk mengisi form pendataan negara yang akan sangat berguna bagi Dylon untuk membuat AurelisPedia yang sangat ia impikan akan membuat proses roleplay menjadi lancar. 
+
+	    </p>	    <p>Enjoy lagu misterius yang harusnya kupasangi di bagian anthem GFL</p>
+
+      <audio controls loop>
+
+  <source src="https://audio.jukehost.co.uk/s0A74BWv1WhyPhcFpcJJyDUGNB6hKUD5" type="audio/mpeg">
+
+  Your browser does not support the audio tag.
+
+</audio>
+
+<br>
+
+    </div>
+
+  </div>
+
+<!--  -->
+
+  <div class="rightcolumn">
+
+    <div class="card">
+
+    <form action="https://formspree.io/f/mdovjjrl" method="POST">
+
+        <input type="hidden" name="subject" value="Hourrah, We've Got A New Flag !"/>
+
+        <input type="text" name="Country Name" placeholder="Country Name" required>
+
+        <input type="text" name="Description" placeholder="Description">
+
+        <br /><br>
+
+        <input type="file" id="file">
+
+        <br />
+
+        <img src="https://i.imgur.com/U7afLiO.png" id="img" height="200px">
+
+        <br />
+
+        <strong>
+
+            <p id="url"></p>
+
+        </strong>
+
+        <input type="text" name="Image Link" id="image_link" style="display: none;">
+
+    </form>
+
+    <script>
+
+        const file = document.getElementById("file");
+
+        const img = document.getElementById("img");
+
+        const url = document.getElementById("url");
+
+        const form = document.querySelector("form");
+
+        const subjectInput = document.getElementsByName("subject")[0];
+
+        const imageLinkInput = document.getElementById("image_link");
+
+        file.addEventListener("change", ev => {
+
+            const formdata = new FormData();
+
+            formdata.append("image", ev.target.files[0]);
+
+            fetch("https://api.imgur.com/3/image/", {
+
+                method: "post",
+
+                headers: {
+
+                    Authorization: "Client-ID a0e1f75a512325b"
+
+                },
+
+                body: formdata
+
+            }).then(data => data.json()).then(data => {
+
+                img.src = data.data.link;
+
+                url.innerText = data.data.link;
+
+                imageLinkInput.value = data.data.link;
+
+                form.submit();
+
+            });
+
+        });
+
+        subjectInput.addEventListener("input", ev => {
+
+            form.setAttribute("data-subject", ev.target.value);
+
+        });
+
+    </script>
+
+    </div>          
+
+  </div>
+
+</div>
+
+<!--  -->
+
+<div class="footer">
+
+  <p>Aurelispedia, Made with 🛢️ by DylonKejhu<p>
+
+</div>
+
+<!--  -->
+
+</body>
+
+</html>
